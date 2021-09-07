@@ -2,4 +2,4 @@
 
 
 Member1: Pranay Raman
-Member2: Chidiogo Onoh
+Member2: Chidoogo Onoh
