@@ -8,11 +8,13 @@ import { MatSliderModule } from '@angular/material/slider';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatCardModule} from '@angular/material/card';
 import { MapComponent } from './map/map.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AppComponent,
     MapComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -20,7 +22,8 @@ import { MapComponent } from './map/map.component';
     MatButtonModule,
     MatSliderModule,
     MatFormFieldModule,
-    MatCardModule
+    MatCardModule,
+    HttpClientModule
     
   ],
   providers: [],
