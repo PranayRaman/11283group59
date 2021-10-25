@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "server": "json-server --watch ./src/assets/countries.json --port 8000"
   },
   "private": true,
   "dependencies": {
@@ -21,8 +22,10 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "express": "^4.17.1",
+    "json-server": "^0.17.0",
     "leaflet": "^1.7.1",
     "rxjs": "~6.6.0",
+    "save-dev": "0.0.1-security",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
   },

@@ -1,6 +1,8 @@
 import { Component, AfterViewInit } from '@angular/core';
 import * as L from 'leaflet';
+import { MapHttpService } from 'src/services/map.service';
 
+import { Country } from '../model/countries';
 
 @Component({
   selector: 'app-map',
@@ -8,7 +10,9 @@ import * as L from 'leaflet';
   styleUrls: ['./map.component.scss']
 })
 export class MapComponent implements AfterViewInit {
+  constructor(private mapService: MapHttpService) {}
   private map: any;
+  countries: Country[] = [];
 
   private initMap(): void {
     
@@ -55,7 +59,7 @@ var polygon3 = L.polygon([
   [ 28.595362 , -81.586483],
   [ 28.628529,-81.554319]
 ]).addTo(this.map);
-polygon3.bindPopup("Water Quality: <br> Aquatic life: Good <br> ");
+polygon3.bindPopup("Dissolved oxygen: 0.2 <br> pH Level: 7.4 <br> Nitrate Present: 0.9 <br> Algae Bloom: No <br> Aquatic life: Healthy <br> ");
 
 var polygon4 = L.polygon([
   [27.203729, -80.785434],
@@ -65,18 +69,24 @@ var polygon4 = L.polygon([
   [26.802774,-80.703482],
   [26.940002,-80.611466]
 ]).addTo(this.map);
-polygon4.bindPopup("Lake Okeechobee")
+polygon4.bindPopup("Dissolved oxygen: 0.2 <br> pH Level: 7.0 <br> Nitrate Present: 0.9 <br> Algae Bloom: Blue-green algal bloom conditions were observed <br> Aquatic life: Healthy <br> ");
 
 
   }
 
-  
-
-  constructor() { }
+ 
 
   ngAfterViewInit(): void {
     this.initMap();
+    this.get();
+   
+   
 
+  }
+
+  get(){
+    this.mapService.getAll().subscribe(data => this.countries = data);
+    console.log('here ', this.countries)
   }
 
   refresh(): void {
