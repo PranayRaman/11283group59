@@ -1,41 +1,42 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-crossorigin=""/>
+  integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin="" />
 
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-crossorigin=""></script>
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
 
 <mat-card-title class='card'>
-  <mat-card style="text-align: center; color: aliceblue; background-color: #3f51b5; width: 70%;">Aquatic Analyzer</mat-card>
+  <mat-card style="text-align: center; color: aliceblue; background-color: #3f51b5; width: 70%;">Aquatic Analyzer
+  </mat-card>
 </mat-card-title>
 
 <div class="map-container" style="padding-top: 100px;">
-    <div class="map-frame" style='margin: auto'>
-      <div id="map"></div> 
-    </div>
+  <div class="map-frame" style='margin: auto'>
+    <div id="map"></div>
   </div>
-    
-  <div class="d-flex flex-row" style="padding-top: 100px;">
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary" (click) = 'reset()'>Reset</button>
-    </div>
-    <div class="p-5" style="padding: 5px;">
-      <button mat-flat-button color="primary" (click)='lake1()'>Wauburg</button>
-    </div>
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary" (click)='lake2()'>Okeechobee</button>
-    </div>
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary" (click)='lake3()'>Apopka</button>
-    </div>
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary">Primary</button>
-    </div>
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary">Primary</button>
-    </div>
-    <div class="p-2" style="padding: 5px;">
-      <button mat-flat-button color="primary">Primary</button>
-    </div>
+</div>
+
+<div class="d-flex flex-row" style="padding-top: 100px;">
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary" (click)='reset()'>Reset</button>
   </div>
+  <div class="p-5" style="padding: 5px;">
+    <button mat-flat-button color="primary" (click)='lake1()'>Wauburg</button>
+  </div>
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary" (click)='lake2()'>Okeechobee</button>
+  </div>
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary" (click)='lake3()'>Apopka</button>
+  </div>
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary">Primary</button>
+  </div>
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary">Primary</button>
+  </div>
+  <div class="p-2" style="padding: 5px;">
+    <button mat-flat-button color="primary">Primary</button>
+  </div>
+</div>
