@@ -3,7 +3,7 @@
     {
       
       "name": "Lake Wauburg",
-      "dissolved": "Helsinki",
+      "dissolved": "0.5",
       "pH": "7.4",
       "nitrate": "5",
       "algaeBloom": "5",

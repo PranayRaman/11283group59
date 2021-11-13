@@ -20,7 +20,6 @@ export class MapComponent implements AfterViewInit {
     this.http.get('http://localhost:8000/lakeData').subscribe(res => {
       this.data = res;
       console.log('data', this.data);
-      this.name = this.data[0].name;
       this.initMap();
     })
 
@@ -46,12 +45,13 @@ export class MapComponent implements AfterViewInit {
     tiles.addTo(this.map);
 
 
-    var polygon2 = L.polygon([
+    var Wauburg = L.polygon([
       [29.536345, -82.300753],
       [29.527646, -82.306372],
       [29.524408, -82.299147],
     ]).addTo(this.map);
-    polygon2.bindPopup("Name: "+this.data[1].name+ "<br>Dissolved oxygen: " + this.data[1].id)
+    Wauburg.bindPopup("Name: "+this.data[0].name+ "<br>Dissolved oxygen: " + this.data[0].dissolved + "<br>pH: " + this.data[0].pH + 
+    "<br>Nitrate: " + this.data[0].nitrate + "<br>Algae Bloom: " + this.data[0].algaeBloom + "<br> Aquatic Life: " + this.data[0].aquaticLife)
 
 
     var polygon1 = L.polygon([
@@ -100,15 +100,15 @@ export class MapComponent implements AfterViewInit {
     this.map.flyTo([28.9, -81.5], 7);
   }
 
-  lake1() {
+  lake1() { //wauburg
     this.map.flyTo([29.53, -82.3], 14);
   }
 
-  lake2() {
+  lake2() { //okeechobee
     this.map.flyTo([26.94983, -80.803444], 10);
   }
 
-  lake3() {
+  lake3() { //apopka
     this.map.flyTo([28.624048, -81.625286], 11);
   }
 
