@@ -2,42 +2,84 @@
   "lakeData": [
     {
       
-      "name": "Lake Wauburg",
-      "dissolved": "0.5",
-      "pH": "7.4",
-      "nitrate": "5",
+      "name": "Lake Wauberg",
+      "dissolvedOxygen": "7.58",
+      "pH": "9.6",
+      "nitrogen": "2270.00",
       "algaeBloom": "5",
       "aquaticLife" : "Healthy"
     },
     {
-      "id": "2",
-      "name": "Norway",
-      "capital": "Oslo"
+      "id": "Lake Okeechobee",
+      "dissolvedOxygen": "6.59",
+      "pH": "8.1",
+      "nitrogen": "1200.00",
+      "algaeBloom": "4",
+      "aquaticLife" : "Healthy"
     },
     {
-      "id": "3",
-      "name": "Japan",
-      "capital": "Tokyo"
+      "id": "Lake George",
+      "dissolvedOxygen": "8.86",
+      "pH": "8.1",
+      "nitrogen": "1008.6",
+      "algaeBloom": "4",
+      "aquaticLife" : "Somewhat Healthy"
     },
     {
-      "id": "4",
-      "name": "Germany",
-      "capital": "Berlin"
+      "id": "Lake Alice",
+      "dissolvedOxygen": "0.24",
+      "pH": "6.54",
+      "nitrogen": "484.00",
+      "algaeBloom": "2",
+      "aquaticLife" : "Healthy"
     },
     {
-      "id": "5",
-      "name": "Russia",
-      "capital": "Moscow"
+      "id": "Lake Apopka",
+      "dissolvedOxygen": "7.68",
+      "pH": "8.11",
+      "nitrogen": "3533.60",
+      "algaeBloom": "4",
+      "aquaticLife" : "Somewhat Healthy"
     },
     {
-      "id": "6",
-      "name": "Kenya",
-      "capital": "Nairobi"
+      "id": "Lake Istokpoga",
+      "dissolvedOxygen": "8.71",
+      "pH": "9.2",
+      "nitrogen": "1760.00",
+      "algaeBloom": "5",
+      "aquaticLife" : "Somewhat Unhealthy"
     },
     {
-      "id": "7",
-      "name": "Sweden",
-      "capital": "Stockholm"
+      "id": "Lake Tohopekaliga",
+      "dissolvedOxygen": "7.12",
+      "pH": "8.40",
+      "nitrogen": "1480.00",
+      "algaeBloom": "4",
+      "aquaticLife" : "Somewhat Healthy"
+    },
+    {
+      "id": "Crescent Lake",
+      "dissolvedOxygen": "7.77",
+      "pH": "7.19",
+      "nitrogen": "1643.10",
+      "algaeBloom": "3",
+      "aquaticLife" : "Healthy"
+    },
+    {
+      "id": "Lake Harris",
+      "dissolvedOxygen": "10.56",
+      "pH": "7.5",
+      "nitrogen": "2060.00",
+      "algaeBloom": "3",
+      "aquaticLife" : "Healthy"
+    },
+    {
+      "id": "Santa Fe Lake",
+      "dissolvedOxygen": "7.29",
+      "pH": "5.46",
+      "nitrogen": "1760.00",
+      "algaeBloom": "6",
+      "aquaticLife" : "Somewhat Unhealthy"
     }
   ]
 }
