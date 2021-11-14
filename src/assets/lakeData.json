@@ -10,7 +10,7 @@
       "aquaticLife" : "Healthy"
     },
     {
-      "id": "Lake Okeechobee",
+      "name": "Lake Okeechobee",
       "dissolvedOxygen": "6.59",
       "pH": "8.1",
       "nitrogen": "1200.00",
@@ -18,23 +18,7 @@
       "aquaticLife" : "Healthy"
     },
     {
-      "id": "Lake George",
-      "dissolvedOxygen": "8.86",
-      "pH": "8.1",
-      "nitrogen": "1008.6",
-      "algaeBloom": "4",
-      "aquaticLife" : "Somewhat Healthy"
-    },
-    {
-      "id": "Lake Alice",
-      "dissolvedOxygen": "0.24",
-      "pH": "6.54",
-      "nitrogen": "484.00",
-      "algaeBloom": "2",
-      "aquaticLife" : "Healthy"
-    },
-    {
-      "id": "Lake Apopka",
+      "name": "Lake Apopka",
       "dissolvedOxygen": "7.68",
       "pH": "8.11",
       "nitrogen": "3533.60",
@@ -42,7 +26,24 @@
       "aquaticLife" : "Somewhat Healthy"
     },
     {
-      "id": "Lake Istokpoga",
+      "name": "Lake George",
+      "dissolvedOxygen": "8.86",
+      "pH": "8.1",
+      "nitrogen": "1008.6",
+      "algaeBloom": "4",
+      "aquaticLife" : "Somewhat Healthy"
+    },
+    {
+      "name": "Lake Alice",
+      "dissolvedOxygen": "0.24",
+      "pH": "6.54",
+      "nitrogen": "484.00",
+      "algaeBloom": "2",
+      "aquaticLife" : "Healthy"
+    },
+ 
+    {
+      "name": "Lake Istokpoga",
       "dissolvedOxygen": "8.71",
       "pH": "9.2",
       "nitrogen": "1760.00",
@@ -50,7 +51,7 @@
       "aquaticLife" : "Somewhat Unhealthy"
     },
     {
-      "id": "Lake Tohopekaliga",
+      "name": "Lake Tohopekaliga",
       "dissolvedOxygen": "7.12",
       "pH": "8.40",
       "nitrogen": "1480.00",
@@ -58,7 +59,7 @@
       "aquaticLife" : "Somewhat Healthy"
     },
     {
-      "id": "Crescent Lake",
+      "name": "Crescent Lake",
       "dissolvedOxygen": "7.77",
       "pH": "7.19",
       "nitrogen": "1643.10",
@@ -66,7 +67,7 @@
       "aquaticLife" : "Healthy"
     },
     {
-      "id": "Lake Harris",
+      "name": "Lake Harris",
       "dissolvedOxygen": "10.56",
       "pH": "7.5",
       "nitrogen": "2060.00",
@@ -74,7 +75,7 @@
       "aquaticLife" : "Healthy"
     },
     {
-      "id": "Santa Fe Lake",
+      "name": "Santa Fe Lake",
       "dissolvedOxygen": "7.29",
       "pH": "5.46",
       "nitrogen": "1760.00",
