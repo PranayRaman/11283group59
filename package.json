@@ -22,6 +22,7 @@
     "@angular/platform-browser-dynamic": "~12.2.0",
     "@angular/router": "~12.2.0",
     "express": "^4.17.1",
+    "json-mock": "^0.1.0",
     "json-server": "^0.17.0",
     "leaflet": "^1.7.1",
     "rxjs": "~6.6.0",
